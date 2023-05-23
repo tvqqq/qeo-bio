@@ -1,3 +1,4 @@
+import Spotify from "./components/Spotify";
 import avatar from "/avatar.jpg";
 import qeoqeo from "./assets/qeoqeo-symbol.svg";
 import qrCode from "./assets/qr-code.svg";
@@ -12,7 +13,8 @@ import githubLogo from "./assets/social/github.svg";
 import Link from "./components/Link";
 import linkPayment from "./assets/link/payment.svg";
 import linkCgv from "./assets/link/cgv.svg";
-import Spotify from "./components/Spotify";
+import linkBangkok from "./assets/link/bangkok.svg";
+import linkDimsum from "./assets/link/dimsum.svg";
 
 function App() {
   return (
@@ -87,18 +89,30 @@ function App() {
           </ul>
 
           <div className="w-full md:w-2/3 2xl:w-1/2 px-5">
+            <Link
+              title="Quán Dimsum ngon nè"
+              url="https://goo.gl/maps/3aLBuP55MnVTrogA8"
+              image={linkDimsum}
+              hoverClass="hover:bg-stone-600"
+            />
+            <Link
+              title="Book vé CGV giá rẻ"
+              url="https://cgv.qeoqeo.com"
+              image={linkCgv}
+              hoverClass="hover:bg-rose-800"
+            />
             <Spotify />
+            <Link
+              title={"Hành trình “XKLĐ” Bangkok 4N3Đ"}
+              url="https://bit.ly/qeo-bangkok23"
+              image={linkBangkok}
+              hoverClass="hover:bg-teal-800"
+            />
             <Link
               title="Quyen Payment"
               url="https://pay.qeoqeo.com"
               image={linkPayment}
               hoverClass="hover:bg-amber-600"
-            />
-            <Link
-              title="Book vé CGV"
-              url="https://cgv.qeoqeo.com"
-              image={linkCgv}
-              hoverClass="hover:bg-rose-800"
             />
           </div>
 
