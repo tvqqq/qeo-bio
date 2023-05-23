@@ -1,14 +1,14 @@
-function Link({ children, title, url, image }: any) {
+function Link({ children, title, url, image, hoverClass }: any) {
   return (
     <div className="mb-6 shadow-xl transition ease-in-out hover:scale-105 duration-300">
       <a
         href={url}
         target="_blank"
-        className="w-full inline-flex items-center justify-center p-3 text-gray-100 rounded-full border border-gray-300 hover:text-white hover:border-white"
+        className={`w-full inline-flex items-center justify-center p-3 text-gray-100 rounded-full border border-gray-300 hover:text-white hover:border-white ${hoverClass}`}
       >
         <div className="w-10">
           <img
-            className="rounded-full bg-gray-100 p-2"
+            className="rounded-full bg-gray-50 p-1"
             src={image}
             alt={title}
           />

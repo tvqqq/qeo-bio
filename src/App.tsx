@@ -10,8 +10,9 @@ import linkedinLogo from "./assets/social/linkedin.svg";
 import telegramLogo from "./assets/social/telegram.svg";
 import githubLogo from "./assets/social/github.svg";
 import Link from "./components/Link";
-import quyenPaymentLogo from "./assets/link/quyen-payment-logo.png";
-import qeoCgv from "./assets/link/qeo-cgv.png";
+import linkPayment from "./assets/link/payment.svg";
+import linkCgv from "./assets/link/cgv.svg";
+import Spotify from "./components/Spotify";
 
 function App() {
   return (
@@ -86,15 +87,18 @@ function App() {
           </ul>
 
           <div className="w-full md:w-2/3 2xl:w-1/2 px-5">
+            <Spotify />
             <Link
               title="Quyen Payment"
               url="https://pay.qeoqeo.com"
-              image={quyenPaymentLogo}
+              image={linkPayment}
+              hoverClass="hover:bg-amber-600"
             />
             <Link
               title="Book vé CGV"
               url="https://cgv.qeoqeo.com"
-              image={qeoCgv}
+              image={linkCgv}
+              hoverClass="hover:bg-rose-800"
             />
           </div>
 
