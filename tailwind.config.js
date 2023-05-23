@@ -11,6 +11,9 @@ export default {
         "hero-dark": "url('/hero-dark.jpg')",
       },
     },
+    fontFamily: {
+      sans: ["Noto Sans", "sans-serif"],
+    },
   },
   // eslint-disable-next-line no-undef
   plugins: [require("flowbite/plugin")],

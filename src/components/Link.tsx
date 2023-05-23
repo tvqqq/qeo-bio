@@ -14,7 +14,7 @@ function Link({ children, title, url, image }: any) {
           />
           {children}
         </div>
-        <span className="w-full text-center text-lg font-base tracking-tight">
+        <span className="w-full text-center text-lg font-base tracking-wide">
           {title}
         </span>
         <svg

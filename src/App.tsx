@@ -30,7 +30,7 @@ function App() {
           </div>
           <h1 className="mt-5 font-extrabold text-4xl lg:text-5xl tracking-tight text-center text-white">
             <span className="tracking-wider bg-clip-text text-transparent bg-gradient-to-r from-sky-600 to-indigo-200">
-              Quyen Tat
+              QUYEN TAT
             </span>
           </h1>
           <h2 className="mt-2 mb-4">
