@@ -93,7 +93,7 @@ function App() {
               title="Quán Dimsum ngon nè"
               url="https://goo.gl/maps/3aLBuP55MnVTrogA8"
               image={linkDimsum}
-              hoverClass="hover:bg-stone-600"
+              hoverClass="hover:bg-yellow-500"
             />
             <Link
               title="Book vé CGV giá rẻ"
@@ -106,13 +106,13 @@ function App() {
               title={"Hành trình “XKLĐ” Bangkok 4N3Đ"}
               url="https://bit.ly/qeo-bangkok23"
               image={linkBangkok}
-              hoverClass="hover:bg-teal-800"
+              hoverClass="hover:bg-sky-700"
             />
             <Link
               title="Quyen Payment"
               url="https://pay.qeoqeo.com"
               image={linkPayment}
-              hoverClass="hover:bg-amber-600"
+              hoverClass="hover:bg-violet-500"
             />
           </div>
 
