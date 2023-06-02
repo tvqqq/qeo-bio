@@ -51,41 +51,13 @@ function App() {
           </h3>
 
           <ul className="flex flex-wrap items-center justify-center my-8">
-            <Social
-              name="Facebook"
-              logo={facebookLogo}
-              url={"https://www.facebook.com/tvqqq"}
-            ></Social>
-            <Social
-              name="Instagram"
-              logo={instagramLogo}
-              url={"https://www.instagram.com/tvq9612"}
-            ></Social>
-            <Social
-              name="Twitter"
-              logo={twitterLogo}
-              url={"https://twitter.com/tvq9612"}
-            ></Social>
-            <Social
-              name="TikTok"
-              logo={tiktokLogo}
-              url={"https://www.tiktok.com/@tvq9612"}
-            ></Social>
-            <Social
-              name="GitHub"
-              logo={githubLogo}
-              url={"https://github.com/tvqqq"}
-            ></Social>
-            <Social
-              name="LinkedIn"
-              logo={linkedinLogo}
-              url={"https://www.linkedin.com/in/tvq/"}
-            ></Social>
-            <Social
-              name="Telegram"
-              logo={telegramLogo}
-              url={"https://t.me/tvq9612"}
-            ></Social>
+            <Social name="Facebook" logo={facebookLogo}></Social>
+            <Social name="Instagram" logo={instagramLogo}></Social>
+            <Social name="Twitter" logo={twitterLogo}></Social>
+            <Social name="TikTok" logo={tiktokLogo}></Social>
+            <Social name="GitHub" logo={githubLogo}></Social>
+            <Social name="LinkedIn" logo={linkedinLogo}></Social>
+            <Social name="Telegram" logo={telegramLogo}></Social>
           </ul>
 
           <div className="w-full md:w-2/3 2xl:w-1/2 px-5">

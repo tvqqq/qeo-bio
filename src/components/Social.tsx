@@ -1,8 +1,8 @@
-function Social({ logo, url, name }: any) {
+function Social({ logo, name }: any) {
   return (
     <li className="m-3">
       <a
-        href={url}
+        href={`/${name.toLowerCase()}`}
         target="_blank"
         data-tooltip-target={`tooltip-bottom-${name}`}
         data-tooltip-placement="bottom"

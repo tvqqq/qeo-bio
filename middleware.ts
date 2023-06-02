@@ -8,11 +8,8 @@ export const config = {
 
 export default async function middleware(request: Request) {
   const url = new URL(request.url);
-  const urlPath = url.pathname.substring(1);
-  console.log("🚀 ~ file: middleware.ts:9 ~ middleware ~ url:", url.pathname);
-  // console.log("env", process.env.TINYBIRD_API_KEY);
-
-  const qeobio = await get("qeobio");
+  const urlPath: string = url.pathname.substring(1);
+  const qeobio: { [key: string]: any } = (await get("qeobio")) || [];
   if (qeobio && qeobio[urlPath]) {
     return rewrite(new URL(qeobio[urlPath], request.url));
   }
