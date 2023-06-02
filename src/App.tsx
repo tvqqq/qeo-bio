@@ -81,8 +81,8 @@ function App() {
               hoverClass="hover:bg-sky-700"
             />
             <Link
-              title="Quyen Payment"
-              url="https://pay.qeoqeo.com"
+              title="Pay to Quyen"
+              url="/pay"
               image={linkPayment}
               hoverClass="hover:bg-violet-500"
             />
