@@ -15,6 +15,7 @@ import linkPayment from "./assets/link/payment.svg";
 import linkCgv from "./assets/link/cgv.svg";
 import linkBangkok from "./assets/link/bangkok.svg";
 import linkDimsum from "./assets/link/dimsum.svg";
+import linkBlog from "./assets/link/blog.svg";
 
 function App() {
   return (
@@ -61,6 +62,12 @@ function App() {
           </ul>
 
           <div className="w-full md:w-2/3 2xl:w-1/2 px-5">
+            <Link
+              title="Qeo's Blog"
+              url="https://blog.qeo.io.vn"
+              image={linkBlog}
+              hoverClass="hover:bg-teal-400"
+            />
             <Link
               title="Quán Dimsum ngon nè"
               url="https://goo.gl/maps/3aLBuP55MnVTrogA8"
@@ -114,7 +121,7 @@ function App() {
           <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
             <div className="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600">
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-                QR qeoqeo.com
+                QR qeo.io.vn
               </h3>
               <button
                 type="button"
